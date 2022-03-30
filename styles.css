@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header-background-class{
+    width:100%;
+    background-image:url("back5.jpg");
+    background-position: center;
+    background-size: cover;
+    margin:0;
+    height: fit-content;
+    padding: 100px;
+    
+    
+    display: block;
+}
+li{
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 1.5 rem;
+    color:aliceblue;
+
+    
+}
+
+.header-middle-class{
+    justify-content: center;
+    margin-top: 20px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    color:#FFB72B;
+
+    margin-top: 100px;
+
+}
+
+.restaurant-name{
+    font-size: 2.5rem;
+    color:#FFB72B;
+
+}
+.resturant-tag{
+    font-size: 1.5rem;
+    color:aliceblue;
+
+}
+
+.header-bottom-class{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.food-search-name{
+    width: 80%;
+    height:2rem;
+    border: none;
+    border-radius: 5px;
+    color:aliceblue;
+}
+
+.food-searcg-btn{
+    width:10%;
+    height:2rem;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+}
+
+.food-img-lists{
+    margin-top: 0px;
+margin: auto;
+width: 95%;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.single-food-item{
+    width: 30%;
+    padding: 10px;
+
+
+
+}
+.food-img{
+    width: 100%;
+    border-radius: 10px;
+    max-height:
+}
+.price-tag{
+    width: 100%;
+    color: white;
+    background-color: #203239;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 0;
+    position: relative;
+    top: 0;
+    height: 1.5rem;
+    justify-content: center;
+
+}
+/* .price-tag :hover{
+    background-color: #151D3B;
+    color:#F7F7F7;
+} */
+p{
+    text-align: center;
+}
+
+.food-items-heading{
+    color: #203239;
+    font-size: 2rem;
+    text-align: center;
+}
